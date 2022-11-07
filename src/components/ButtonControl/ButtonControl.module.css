@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
+  justify-items: center;
+}
+
+.btnLeft,
+.btnRight {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.btnLeft {
+  justify-self: self-end;
+}
+.btnRight {
+  justify-self: self-start;
+}
